@@ -13,4 +13,4 @@ function positions (primeiroLugar, segundoLugar, ultimoLugar) {
     return `1º Colocado ${colocacoes[0]}, 2º colocado ${colocacoes[1]}, 3º colocado ${colocacoes[2]}`
 }
 
-console.log(positions("Rafael", "Daniel", "Manoel"))
+console.log(positions("Rafael", "Manoel", "Daniel"))
