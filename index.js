@@ -4,7 +4,7 @@ function positions (primeiroLugar, segundoLugar, ultimoLugar) {
     let colocacoes = [primeiroLugar, segundoLugar, ultimoLugar]
 
         if(ultimoLugar === "Daniel"){
-            colocacoes = [ultimoLugar, primeiroLugar, segundoLugar]
+            colocacoes = [primeiroLugar , ultimoLugar, segundoLugar]
         }
         if(segundoLugar === "Daniel"){
             colocacoes = [segundoLugar, primeiroLugar, ultimoLugar]
